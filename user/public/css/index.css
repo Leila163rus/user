@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#registration, #auth, #trueAuth, #editPost {
+  margin: 130px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 330px;
+}
+
+#registration label, #auth label, #editPost label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#registration input, #auth input, #editPost input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#submit {
+  font-size: medium;
+  font-weight: 600;
+}
+
+#menu {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  list-style-type: none;
+  list-style-type: none;
+}
+
+.nav a {
+  font-size: larger;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#trueAuth h3 {
+  text-align: center;
+}
